@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
-'''
+"""
 @author: HuRuiFeng
 @file: is_power.py
 @time: 2018/11/18 23:51
 @desc:
-'''
+"""
 
 def is_power(a, b):
     if a == 0 or b == 0:

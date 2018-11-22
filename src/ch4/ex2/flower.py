@@ -11,7 +11,7 @@ License: http://creativecommons.org/licenses/by/4.0/
 
 import turtle
 
-from src.ch4.ex4_1.polygon import arc
+from src.ch4.ex1.polygon import arc
 
 def petal(t, r, angle):
     """Draws a petal using two arcs.

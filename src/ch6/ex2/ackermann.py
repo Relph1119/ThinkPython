@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
-'''
+"""
 @author: HuRuiFeng
 @file: ackermann.py
 @time: 2018/11/18 23:45
 @desc:
-'''
+"""
 
 def ackermann(m, n):
     """Computes the Ackermann function A(m, n)

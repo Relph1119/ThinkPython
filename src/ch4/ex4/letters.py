@@ -11,7 +11,7 @@ License: http://creativecommons.org/licenses/by/4.0/
 
 import turtle
 
-from ch4.ex4_1.polygon import circle, arc
+from ch4.ex1.polygon import circle, arc
 
 # LEVEL 0 PRIMITIVES
 # fd, bk, lt, rt, pu, pd
