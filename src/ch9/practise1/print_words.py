@@ -7,7 +7,7 @@
 @desc:
 """
 import os, sys
-fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"word.txt")
+fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"words.txt")
 for line in fin:
     word = line.strip()
     print(word)

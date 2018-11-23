@@ -11,7 +11,7 @@ import os, sys
 def has_no_e(word):
     return word.count('e') == 0
 
-fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"word.txt")
+fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"words.txt")
 total = 0
 no_e_count = 0
 for line in fin:
