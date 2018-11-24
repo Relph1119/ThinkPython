@@ -20,5 +20,5 @@ def ackermann(m, n):
         return ackermann(m-1, 1)
     return ackermann(m-1, ackermann(m, n-1))
 
-
-print(ackermann(3, 4))
+if __name__ == '__main__':
+    print(ackermann(3, 4))

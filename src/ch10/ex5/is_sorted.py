@@ -10,5 +10,6 @@
 def is_sorted(t):
     return t == sorted(t)
 
-print(is_sorted([1, 2, 2]))
-print(is_sorted(['b', 'a']))
+if __name__ == '__main__':
+    print(is_sorted([1, 2, 2]))
+    print(is_sorted(['b', 'a']))

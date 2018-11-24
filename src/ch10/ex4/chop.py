@@ -11,6 +11,7 @@ def chop(t):
     del t[-1]
     del t[0]
 
-t = [1, 2, 3, 4]
-chop(t)
-print(t)
+if __name__ == '__main__':
+    t = [1, 2, 3, 4]
+    chop(t)
+    print(t)

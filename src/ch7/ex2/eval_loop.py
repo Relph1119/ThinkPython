@@ -17,5 +17,5 @@ def eval_loop():
         ans = eval(word)
         print(ans)
 
-
-print(eval_loop())
+if __name__ == '__main__':
+    print(eval_loop())

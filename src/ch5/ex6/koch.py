@@ -33,11 +33,11 @@ def snowflake(t, n):
         koch(t, n)
         t.rt(120)
 
+if __name__ == '__main__':
+    bob = turtle.Turtle()
+    bob.pu()
+    bob.goto(-150, 90)
+    bob.pd()
+    snowflake(bob, 300)
 
-bob = turtle.Turtle()
-bob.pu()
-bob.goto(-150, 90)
-bob.pd()
-snowflake(bob, 300)
-
-turtle.mainloop()
+    turtle.mainloop()

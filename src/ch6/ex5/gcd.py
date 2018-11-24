@@ -12,6 +12,7 @@ def gcd(a, b):
         return a
     return gcd(b, a%b)
 
-print(gcd(312, 512))
-print(gcd(0, 512))
-print(gcd(312, 0))
+if __name__ == '__main__':
+    print(gcd(312, 512))
+    print(gcd(0, 512))
+    print(gcd(312, 0))

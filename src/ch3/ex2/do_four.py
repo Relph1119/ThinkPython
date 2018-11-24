@@ -37,8 +37,8 @@ def do_four(func, arg):
     do_twice(func, arg)
     do_twice(func, arg)
 
+if __name__ == '__main__':
+    do_twice(print_twice, 'spam')
+    print('')
 
-do_twice(print_twice, 'spam')
-print('')
-
-do_four(print_twice, 'spam')
+    do_four(print_twice, 'spam')

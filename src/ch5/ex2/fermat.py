@@ -4,10 +4,11 @@ def check_fermat(a, b, c, n):
     else:
         print('不，那样不行！')
 
-print('请输入a,b,c,n的值：')
-a = int(input('a='))
-b = int(input('b='))
-c = int(input('c='))
-n = int(input('n='))
+if __name__ == '__main__':
+    print('请输入a,b,c,n的值：')
+    a = int(input('a='))
+    b = int(input('b='))
+    c = int(input('c='))
+    n = int(input('n='))
 
-check_fermat(a, b, c, n)
+    check_fermat(a, b, c, n)

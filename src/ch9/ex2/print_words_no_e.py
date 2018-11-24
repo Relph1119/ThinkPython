@@ -11,15 +11,16 @@ import os, sys
 def has_no_e(word):
     return word.count('e') == 0
 
-fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"words.txt")
-total = 0
-no_e_count = 0
-for line in fin:
-    total += 1
-    word = line.strip()
-    if has_no_e(word):
-        no_e_count += 1
-        print(word)
+if __name__ == '__main__':
+    fin = open(os.path.dirname(sys.path[2]) + os.sep + "resource"+ os.sep +"words.txt")
+    total = 0
+    no_e_count = 0
+    for line in fin:
+        total += 1
+        word = line.strip()
+        if has_no_e(word):
+            no_e_count += 1
+            print(word)
 
-print("Percentage of such words in the whole vocabulary :" + str(int(no_e_count/total*100)) + "%")
+    print("Percentage of such words in the whole vocabulary :" + str(int(no_e_count/total*100)) + "%")
 

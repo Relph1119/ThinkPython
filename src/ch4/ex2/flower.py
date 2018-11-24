@@ -46,18 +46,18 @@ def move(t, length):
     t.fd(length)
     t.pd()
 
+if __name__ == '__main__':
+    bob = turtle.Turtle()
 
-bob = turtle.Turtle()
+    # draw a sequence of three flowers, as shown in the book.
+    move(bob, -100)
+    flower(bob, 7, 60.0, 60.0)
 
-# draw a sequence of three flowers, as shown in the book.
-move(bob, -100)
-flower(bob, 7, 60.0, 60.0)
+    move(bob, 100)
+    flower(bob, 10, 40.0, 80.0)
 
-move(bob, 100)
-flower(bob, 10, 40.0, 80.0)
+    move(bob, 100)
+    flower(bob, 20, 140.0, 20.0)
 
-move(bob, 100)
-flower(bob, 20, 140.0, 20.0)
-
-bob.hideturtle()
-turtle.mainloop()
+    bob.hideturtle()
+    turtle.mainloop()

@@ -39,9 +39,9 @@ def find_triple_double():
         if is_triple_double(word):
             print(word)
 
-
-print('Here are all the words in the list that have')
-print('three consecutive double letters.')
-find_triple_double()
-print('')
+if __name__ == '__main__':
+    print('Here are all the words in the list that have')
+    print('three consecutive double letters.')
+    find_triple_double()
+    print('')
 

@@ -58,18 +58,19 @@ def isosceles(t, r, angle):
     t.fd(r)
     t.lt(180 - angle)
 
+if __name__ == '__main__':
 
-bob = turtle.Turtle()
+    bob = turtle.Turtle()
 
-bob.pu()
-bob.bk(130)
-bob.pd()
+    bob.pu()
+    bob.bk(130)
+    bob.pd()
 
-# draw polypies with various number of sides
-size = 40
-draw_pie(bob, 5, size)
-draw_pie(bob, 6, size)
-draw_pie(bob, 7, size)
+    # draw polypies with various number of sides
+    size = 40
+    draw_pie(bob, 5, size)
+    draw_pie(bob, 6, size)
+    draw_pie(bob, 7, size)
 
-bob.hideturtle()
-turtle.mainloop()
+    bob.hideturtle()
+    turtle.mainloop()

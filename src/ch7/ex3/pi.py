@@ -43,7 +43,8 @@ def estimate_pi():
 
     return 1 / total
 
-estimate_pi = estimate_pi()
-print("estimate pi =",estimate_pi)
-print("math pi =", math.pi)
-print("diff:", abs(estimate_pi - math.pi))
+if __name__ == '__main__':
+    estimate_pi = estimate_pi()
+    print("estimate pi =",estimate_pi)
+    print("math pi =", math.pi)
+    print("diff:", abs(estimate_pi - math.pi))

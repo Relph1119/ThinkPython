@@ -4,4 +4,5 @@ def recurse(n, s):
     else:
         recurse(n-1, n+s)
 
-recurse(3, 0)
+if __name__ == '__main__':
+    recurse(3, 0)

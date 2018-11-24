@@ -7,5 +7,6 @@ def has_duplicates(s):
             return True
     return False
 
-print(has_duplicates('cba'))
-print(has_duplicates('abba'))
+if __name__ == '__main__':
+    print(has_duplicates('cba'))
+    print(has_duplicates('abba'))

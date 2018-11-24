@@ -4,8 +4,9 @@ def is_triangle(a, b, c):
     else:
         print('Yes')
 
-print('请输入三角形的三条边长度：')
-a = int(input('a='))
-b = int(input('b='))
-c = int(input('c='))
-is_triangle(a, b, c)
+if __name__ == '__main__':
+    print('请输入三角形的三条边长度：')
+    a = int(input('a='))
+    b = int(input('b='))
+    c = int(input('c='))
+    is_triangle(a, b, c)

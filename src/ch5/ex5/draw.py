@@ -12,6 +12,7 @@ def draw(t, length, n):
     t.lt(angle)
     t.bk(length*n)
 
-t = turtle.Turtle()
-draw(t, 10, 6)
-turtle.mainloop()
+if __name__ == '__main__':
+    t = turtle.Turtle()
+    draw(t, 10, 6)
+    turtle.mainloop()

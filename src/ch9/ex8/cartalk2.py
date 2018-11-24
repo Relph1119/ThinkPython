@@ -40,8 +40,8 @@ def check_all():
             print(i)
         i = i + 1
 
-
-print('The following are the possible odometer readings:')
-check_all()
-print()
+if __name__ == '__main__':
+    print('The following are the possible odometer readings:')
+    check_all()
+    print()
 

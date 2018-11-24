@@ -107,26 +107,25 @@ def print_row():
 def print_grid():
     one_four_one(print4beams, print_row, nothing)
 
+if __name__ == '__main__':
+    print_grid()
 
-print_grid()
-
-comment = """
-After writing a draft of the 4x4 grid, I noticed that many of the
-functions had the same structure: they would do something, do
-something else four times, and then do something else once.
-
-So I wrote one_four_one, which takes three functions as arguments; it
-calls the first one once, then uses do_four to call the second one
-four times, then calls the third.
-
-Then I rewrote print1beam, print1post, print4beams, print4posts,
-print_row and print_grid using one_four_one.
-
-Programming is an exploratory process.  Writing a draft of a program
-often gives you insight into the problem, which might lead you to
-rewrite the code to reflect the structure of the solution.
-
---- Allen
-"""
-
-print(comment)
+    comment = """
+    After writing a draft of the 4x4 grid, I noticed that many of the
+    functions had the same structure: they would do something, do
+    something else four times, and then do something else once.
+    
+    So I wrote one_four_one, which takes three functions as arguments; it
+    calls the first one once, then uses do_four to call the second one
+    four times, then calls the third.
+    
+    Then I rewrote print1beam, print1post, print4beams, print4posts,
+    print_row and print_grid using one_four_one.
+    
+    Programming is an exploratory process.  Writing a draft of a program
+    often gives you insight into the problem, which might lead you to
+    rewrite the code to reflect the structure of the solution.
+    
+    --- Allen
+    """
+    print(comment)

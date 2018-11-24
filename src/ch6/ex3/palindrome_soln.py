@@ -32,8 +32,8 @@ def is_palindrome(word):
         return False
     return is_palindrome(middle(word))
 
-
-print(is_palindrome('allen'))
-print(is_palindrome('bob'))
-print(is_palindrome('otto'))
-print(is_palindrome('redivider'))
+if __name__ == '__main__':
+    print(is_palindrome('allen'))
+    print(is_palindrome('bob'))
+    print(is_palindrome('otto'))
+    print(is_palindrome('redivider'))

@@ -72,10 +72,10 @@ def check_diffs():
             print(diff, n)
         diff = diff + 1
 
+if __name__ == '__main__':
+    print('diff  #instances')
+    check_diffs()
 
-print('diff  #instances')
-check_diffs()
-
-print()
-print('daughter  mother')
-num_instances(18, True)
+    print()
+    print('daughter  mother')
+    num_instances(18, True)
