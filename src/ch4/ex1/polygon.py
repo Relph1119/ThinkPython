@@ -12,7 +12,6 @@ License: http://creativecommons.org/licenses/by/4.0/
 import math
 import turtle
 
-
 def square(t, length):
     """Draws a square with sides of the given length.
 
