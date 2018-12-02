@@ -1,6 +1,7 @@
 # 记录自己学习《像计算机科学家一样思考Python（Think Python 2ed）》这本书的全部过程 #
 
-&emsp;&emsp;本书上传的所有代码都是可以运行的，由于在互联网上没有找到该书全部的练习解答，故笔者自己整理，并在原有代码上进行修改完善，在此向本书作者和译者表示感谢。
+&emsp;&emsp;本书上传的所有代码都是可以运行的，由于在互联网上没有找到该书全部的练习解答，故笔者自己整理，并在原有代码上进行修改完善，在此向本书作者和译者表示感谢。<br/>
+&emsp;&emsp;原书代码地址：[http://www.greenteapress.com/thinkpython2/code/](http://www.greenteapress.com/thinkpython2/code/)
 
 ## 运行环境 ##
 Python 版本：3.7.0<br/>
