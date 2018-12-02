@@ -38,6 +38,6 @@ if __name__ == '__main__':
     bob.pu()
     bob.goto(-150, 90)
     bob.pd()
-    snowflake(bob, 300)
+    snowflake(bob, 100)
 
     turtle.mainloop()

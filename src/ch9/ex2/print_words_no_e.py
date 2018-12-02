@@ -2,7 +2,7 @@
 # encoding: utf-8
 """
 @author: HuRuiFeng
-@file: __init__.py.py
+@file: print_words_no_e.py
 @time: 2018/11/22 23:41
 @desc:
 """

@@ -2,7 +2,7 @@
 # encoding: utf-8
 """
 @author: HuRuiFeng
-@file: print_words.py
+@file: print_words_more20.py
 @time: 2018/11/22 23:30
 @desc:
 """
